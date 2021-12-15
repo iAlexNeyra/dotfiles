@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "coc-eslint": "latest",
+    "coc-go": "latest",
+    "coc-phpls": ">=2.2.1",
+    "coc-prettier": "latest",
+    "coc-rls": ">=1.1.6",
+    "coc-snippets": "latest",
+    "coc-styled-components": ">=0.5.0",
+    "coc-tabnine": "latest",
+    "coc-tailwindcss": "latest",
+    "coc-tsserver": "latest",
+    "coc-vetur": ">=1.2.5"
+  }
+}

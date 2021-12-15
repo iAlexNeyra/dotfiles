@@ -1,0 +1,30 @@
+separator=true
+separator_block_width=15
+
+align=center
+markup=pango
+border_top=0
+border_bottom=3
+border_left=0
+border_right=0
+color=#eeeeee
+
+[battery]
+command=python ~/dotfiles/batt.py
+markup=pango
+interval=30
+border=#fde68a
+color=#FCD34D
+
+[memory]
+command=sh ~/dotfiles/memory.sh
+markup=pango
+interval=30
+color=#A7F3D0
+border=#A7F3D0
+
+[time]
+command=date +'%d/%m/%Y %H:%M'
+interval=1
+color=#F9A8D4
+border=#F9A8D4
